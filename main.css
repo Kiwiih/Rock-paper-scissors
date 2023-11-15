@@ -1,0 +1,66 @@
+body{
+    background-color: lightblue;
+    background-image: url(https://new.static.tv.nu/47992138?forceFit=0&height=1152&quality=50&width=2048);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    color: red;
+}
+
+.img-div{
+    margin-left: 37%;
+}
+.btn{
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    opacity: 100%;
+    font-family: 'Anton', sans-serif;
+}
+
+.game-div{
+    background-color: rgb(112, 162, 187);
+    width: 90vh;
+    height: 100vh;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.mini-section{ 
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 35%;
+    flex-wrap: wrap;
+}
+.bigger-section{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 90vh;
+ margin-top: 0.5em;
+}
+
+#restart-btn{
+    margin-left: 46.5%;
+}
+
+#scores{
+    text-align: center;
+    border: black 1px solid;
+    background-color: white;
+    margin-top: 0.4em;
+    padding: 0em;
+}
